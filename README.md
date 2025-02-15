@@ -56,7 +56,7 @@ reports/nikoletaReport.html
 Open this file in a browser to view test results.
 Uses Extent Reports with pass/fail details.
 
-🛠️ Troubleshooting
+Troubleshooting
 "Browser Not Supported" Error
 
     Ensure the browser name passed in testng.xml matches:
