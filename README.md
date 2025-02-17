@@ -22,6 +22,14 @@ Before running the tests, ensure you have the following installed:
 - reports/: Folder for storing generated test reports  
 - README.md: Project documentation 
 
+### **Key Features:**
+
+- **Search Results Validation**: Ensures results are correctly sorted when sorted by descending price.
+- **Image Count Check**: Verifies that no ad contains more than **30 images** in its carousel.
+- **Pagination Handling**: Automatically navigates through multiple search result pages to verify all ads.
+- **Cross-Browser Testing**: Supports Chrome, Firefox, and Edge, configurable via `testng.xml`.
+- **Test Reports**: Generates detailed test execution reports using **Extent Reports** (`reports/nikoletaReport.html`).
+
 ## Dependencies
 The following dependencies are used (from `pom.xml`):
 - Selenium WebDriver (`4.27.0`)
@@ -73,5 +81,3 @@ Test Fails Due to Missing WebDriver
 ### ** Summary**
 - This **README.md** includes **setup instructions, dependencies, and how to run the tests**.
 - The **test report is generated as `nikoletaReport.html` inside the `reports` folder**.
-
-Let me know if you need any modifications! 🚀
